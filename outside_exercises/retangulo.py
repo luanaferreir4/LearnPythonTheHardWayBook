@@ -1,20 +1,3 @@
-# Problema "terreno"
-# Fazer um programa para ler as medidas da largura e comprimento de um terreno retangular com uma
-# casa decimal, bem como o valor do metro quadrado do terreno com duas casas decimais. Em seguida,
-# o programa deve mostrar o valor da área do terreno, bem como o valor do preço do terreno, ambos com
-# duas casas decimais, conforme exemplo.
-# Exemplo 1:
-# Digite a largura do terreno: 10.0
-# Digite o comprimento do terreno: 30.0
-# Digite o valor do metro quadrado: 200.00
-# Area do terreno = 300.00
-# Preco do terreno = 60000.00
-# Exemplo 2:
-# Digite a largura do terreno: 12.0
-# Digite o comprimento do terrano: 20.0
-# Digite o valor do metro quadrado: 150.00
-# Area do terreno = 240.00
-# Preco do terreno = 36000.00
 # Problema "retangulo"
 # Fazer um programa para ler as medidas da base e altura de um retângulo. Em seguida, mostrar o valor
 # da área, perímetro e diagonal deste retângulo, com quatro casas decimais, conforme exemplos.
@@ -30,3 +13,21 @@
 # AREA = 134.9300
 # PERIMETRO = 46.8000
 # DIAGONAL = 16.6643
+#
+
+import math
+
+msg = '> '
+
+print('Base do retângulo:')
+base_retangulo = float(input(msg))
+print('Altura do retângulo:')
+altura_retangulo = float(input(msg))
+
+area = base_retangulo * altura_retangulo
+print(f'AREA = {area:.4f}')
+perimetro = 2 * (base_retangulo + altura_retangulo)
+print(f'PERIMETRO = {perimetro:.4f}')
+diagonal1 = pow(base_retangulo, 2) + pow(altura_retangulo, 2)
+diagonal2 = math.sqrt(diagonal1)
+print(f'DIAGONAL = {diagonal2:.4f}')

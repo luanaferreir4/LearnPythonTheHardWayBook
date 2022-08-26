@@ -19,18 +19,14 @@
 # Area do terreno = 240.00
 # Preco do terreno = 36000.00
 
-def area_e_valor_do_terreno():
-    print('Largura do terreno:')
-    largura = float(input('> '))
-    print('Comprimento do terreno:')
-    comprimento = float(input('> '))
-    area = largura * comprimento
-    print(f'A área do terreno é: {area:.2f}m².')
-    print('Digite o valor do metro quadrado:')
-    valor_metro_quadrado = float(input('> '))
-    print(f'Valor do metro quadrado: {valor_metro_quadrado:.2f}m².')
-    preco_terreno = (valor_metro_quadrado * largura) * comprimento
-    print(f'Preço do terreno: R$ {preco_terreno:.2f}')
-
-
-area_e_valor_do_terreno()
+print('Largura do terreno:')
+largura = float(input('> '))
+print('Comprimento do terreno:')
+comprimento = float(input('> '))
+area = largura * comprimento
+print(f'A área do terreno é: {area:.2f}m².')
+print('Digite o valor do metro quadrado:')
+valor_metro_quadrado = float(input('> '))
+print(f'Valor do metro quadrado: {valor_metro_quadrado:.2f}m².')
+preco_terreno = (valor_metro_quadrado * largura) * comprimento
+print(f'Preço do terreno: R$ {preco_terreno:.2f}')
