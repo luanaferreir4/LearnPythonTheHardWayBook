@@ -1,0 +1,6 @@
+- tabuleiro
+- peças (X O)
+- instruções ao jogador
+- ranking
+- imprimir vencedor
+- imprimir tabuleiro

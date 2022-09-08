@@ -43,3 +43,7 @@ elif door == "2":
 
 else:
     print("Você tropeça e cai sobre uma faca e morre. Bom trabalho!")
+
+# SP, BH, Montes Claros, Uberaba, Gov. Valadares, Ipatinga, Campinas
+
+# Campinas, SP, Uberaba, Montes Claros, Ipatinga, BH, Gov. Valadares
