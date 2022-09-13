@@ -27,6 +27,7 @@ ten_things = "Apples Oranges Crows Telephone Light Sugar"
 
 print("Espera lá! Não temos ainda 10 coisas nessa lista. Vamos arrumar isso.")
 stuff = ten_things.split(" ")
+print(stuff)
 more_stuff = ["Day", "Night", "Song", "Frisbee",
               "Corn", "Banana", "Girl", "Dream"]
 
