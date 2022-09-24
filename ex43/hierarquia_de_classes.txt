@@ -1,0 +1,12 @@
+* Mapa
+  - proxima_cena
+  - cena_de_entrada
+* Mecanismo
+  - comecar
+* Cena
+  - entrar
+  * Morte
+  * Corredor Central
+  * Arsenal de Armas Laser
+  * A Ponte
+  * Cápsula de Escape
