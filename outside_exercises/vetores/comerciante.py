@@ -73,7 +73,7 @@ acima_de_20 = 0
 for porcentagem_lucro in porcentagens_lucro:
     if porcentagem_lucro < 10:
         abaixo_de_10 += 1
-    elif porcentagem_lucro > 9 and porcentagem_lucro < 21:
+    elif 9 < porcentagem_lucro < 21:
         entre_10_e_20 += 1 
     else:
         acima_de_20 += 1
